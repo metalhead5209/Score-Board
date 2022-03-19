@@ -1,0 +1,162 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* STYLING  */
+
+
+
+
+body {
+	line-height: 1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 20em;
+    width: 37.5em;
+    position: relative;  top: 75px;
+    border: 5px inset black;
+    border-radius: 10px;
+    text-align: center;
+  
+}   
+
+
+h1 {
+    font-size: 5em;
+    color: white;
+}
+
+.text {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.btn {
+    width: 14em;
+    height: 3em;
+    border-radius: 5px;
+    position: relative;
+    top: 2.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .85em;
+    color: white;
+} 
+
+.one {
+    
+    background-color: blue;
+  
+}
+
+.two {
+    background-color: green;
+    
+}   
+
+.three {
+    background-color: red;
+}
+
+
+#select {
+    margin-top: 1.8em;
+}
+
+.label {
+    color: white;
+}
+
+#span {
+    display: inline-flex;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 370px;
+        height: 200px;
+    }
+
+    #img {
+        width: 370px;
+    }
+
+    .btn {
+        width: 7em;
+        height: 1.5em;  
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .text {
+        font-size: 1em;
+    }
+}
